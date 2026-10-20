@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="264" viewBox="0 0 1100 264" role="img" aria-label="jxy@github 终端横幅">
+  <defs>
+    <linearGradient id="glowDark" x1="0" y1="46" x2="1100" y2="264" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3fb950" stop-opacity="0.10"/>
+      <stop offset="0.5" stop-color="#58a6ff" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#0d1117" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 窗口 -->
+  <rect x="0.5" y="0.5" width="1099" height="263" rx="14" fill="#0d1117" stroke="#30363d"/>
+  <path d="M0.5 14.5a14 14 0 0 1 14-14h1071a14 14 0 0 1 14 14V46H0.5z" fill="#161b22"/>
+  <line x1="0.5" y1="46.5" x2="1099.5" y2="46.5" stroke="#30363d"/>
+  <rect x="1" y="47" width="1098" height="216" fill="url(#glowDark)"/>
+
+  <!-- 标题栏 -->
+  <circle cx="26" cy="23" r="6" fill="#ff5f56"/>
+  <circle cx="46" cy="23" r="6" fill="#ffbd2e"/>
+  <circle cx="66" cy="23" r="6" fill="#27c93f"/>
+  <text x="550" y="28" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace,'Microsoft YaHei','PingFang SC'" font-size="13" fill="#8b949e">jxy@github: ~/profile</text>
+  <text x="1074" y="28" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,monospace" font-size="12" fill="#6e7681">zsh</text>
+
+  <!-- 右侧项目速览 -->
+  <rect x="752" y="66" width="316" height="92" rx="8" fill="#161b22" stroke="#30363d"/>
+  <text x="770" y="88" font-family="'JetBrains Mono','SFMono-Regular',Consolas,monospace" font-size="12" fill="#3fb950">$</text>
+  <text x="790" y="88" font-family="'JetBrains Mono','SFMono-Regular',Consolas,monospace" font-size="12" fill="#8b949e">ls ~/projects</text>
+  <text x="770" y="112" font-family="'JetBrains Mono','SFMono-Regular',Consolas,monospace" font-size="12.5" fill="#c9d1d9">shan-yu-dian-can</text>
+  <text x="1050" y="112" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,monospace" font-size="11.5" fill="#6e7681">v2.0plus</text>
+  <text x="770" y="136" font-family="'JetBrains Mono','SFMono-Regular',Consolas,monospace" font-size="12.5" fill="#c9d1d9">project-nlp</text>
+  <text x="1050" y="136" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,monospace" font-size="11.5" fill="#6e7681">text-cls</text>
+
+  <!-- 第 1 行：$ whoami -->
+  <text x="40" y="82" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="14" fill="#3fb950">$</text>
+  <text x="62" y="82" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace,'Microsoft YaHei','PingFang SC'" font-size="14" fill="#c9d1d9">whoami</text>
+
+  <!-- 姓名 -->
+  <text x="38" y="128" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Microsoft YaHei','PingFang SC','Noto Sans SC',sans-serif" font-size="40" font-weight="700" fill="#f0f6fc" letter-spacing="1">九熙雨 · JXY</text>
+
+  <!-- 定位 -->
+  <text x="40" y="162" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Microsoft YaHei','PingFang SC','Noto Sans SC',sans-serif" font-size="17" fill="#79c0ff">AI 应用开发 ｜ LLM 应用 · RAG 检索 · Agent 编排 · 全栈交付</text>
+
+  <!-- 第 2 行：$ cat stack.txt -->
+  <text x="40" y="199" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#3fb950">$</text>
+  <text x="62" y="199" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace,'Microsoft YaHei','PingFang SC'" font-size="13" fill="#c9d1d9">cat stack.txt</text>
+
+  <!-- 技术栈一行 -->
+  <text x="40" y="225" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#7d8590">python · pytorch · transformers · fastapi · sqlalchemy · vue3 · mysql · redis · docker</text>
+
+  <!-- 状态 -->
+  <circle cx="46" cy="246" r="4" fill="#3fb950">
+    <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="62" y="250" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Microsoft YaHei','PingFang SC',sans-serif" font-size="12.5" fill="#8b949e">正在做：把模型能力落成能上线、能维护的功能</text>
+</svg>
